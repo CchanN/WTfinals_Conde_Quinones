@@ -1,0 +1,172 @@
+.App {
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  margin-top: 0px;
+ background-color: blue;
+ padding: 25px;
+}
+
+.navigation {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 250px;
+  border-radius: 5px;
+  box-sizing: initial;
+  border: 1px solid rgb(133, 133, 230);
+  background: rgb(241, 241, 243);
+  transition: 0.5s;
+
+}
+
+.images {
+  margin-top: 25px;
+  margin-left: 69px;
+  border-radius: 25%;
+}
+
+.name{
+  margin-left: 63px;
+}
+.id {
+  margin-left: 80px;
+  color: rgb(109, 107, 107);
+
+}
+
+.line{
+  color: rgb(133, 133, 230);
+}
+
+.navigation ul{
+  posistion: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 15px;
+}
+
+.navigation ul li{
+  posistion: relative;
+  list-style: none;
+  width: 100%;
+  border-top-left-radius: 20px;
+}
+
+.navigation ul li.active{
+  background: blue;
+}
+
+.navigation ul li a{
+  posisiton: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: rgb(63, 62, 62);
+}
+
+.navigation ul li.active a{
+  color: white;
+}
+.navigation ul li a .icon{
+  posistion:relative;
+  display: block;
+  min-width: 60px;
+  height: 20px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.navigation ul li a .icon ion-icon{
+  font-size: 1.5em;
+}
+
+.navigation ul li a .title{
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+}
+
+
+.form{
+
+  margin-top: 80px;
+  background-color: rgb(222, 228, 226);
+  padding: 80px;
+  margin-left: 280px;
+  margin-right: 90px;
+  margin-bottom: 150px;
+}
+ 
+h3 {
+  text-align: left;
+  color: rgb(82, 78, 78);
+}
+
+
+
+.form-label {
+  margin-bottom: 0.5rem;
+  display: inline-block;
+  font-weight: bold;
+}
+.form-control {
+  display: none;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 6.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #b5b9bd;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-text{
+  color: #333;
+}
+
+.form-group .submit{
+  background: blue;
+  border-radius: 5px;
+  border: solid blue;
+}
